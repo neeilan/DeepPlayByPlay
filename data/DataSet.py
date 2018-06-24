@@ -7,8 +7,8 @@ import skvideo.io
 import random
 
 from sklearn.preprocessing import LabelEncoder
+from keras.utils import to_categorical
 
-random.seed(5)
 video_dimensions = (240, 320, 3)
 
 
@@ -31,7 +31,8 @@ class DataSet():
 
     @staticmethod
     def encode(Y):
-        return LabelEncoder().fit_transform(Y)
+        label_encodings = LabelEncoder().fit_transform(Y)
+        return to_categorical(label_encodings)
 
     def load_metadata(self):
         meta_pairs = []
@@ -72,5 +73,6 @@ class DataSet():
             random.shuffle(XY_pairs)
 
         X, Y = [x for x, _ in XY_pairs], [y for _, y in XY_pairs]
+        Y = DataSet.encode(Y)
 
-        return np.array(X), DataSet.encode(Y)
+        return np.array(X), np.array(Y)
