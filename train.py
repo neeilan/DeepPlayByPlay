@@ -12,7 +12,7 @@ def fit_epochs(epochs, model = model):
 
 
   return model.fit_generator(generator=gen,
-                      steps_per_epoch=500,  # 2250 - most of the training set
+                      steps_per_epoch=500,
                       epochs=epochs,
                       verbose=1,
                       callbacks=[checkpointer],
