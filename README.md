@@ -4,8 +4,4 @@ This repo contains model and data collection / preprocessing code to label NBA b
 
 ### Example:
 
-Video:
-![](missed_threes.gif)
-
-Predicted probabilities:
-~[](preds_chart.png)
+<img src="missed_threes.gif" width="40%"> <img src="preds_chart.png" width="50%">
