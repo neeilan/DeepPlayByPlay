@@ -12,3 +12,4 @@ mapping = { '0' : 'INSIDE_MAKE',
             '4' : 'THREE_POINT_MAKE',
             '5' : 'THREE_POINT_MISS' }
             
+video_dimensions = (240, 320, 1)
