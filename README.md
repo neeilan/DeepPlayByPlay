@@ -4,13 +4,13 @@ This repo contains model and data collection / preprocessing code to label NBA b
 
 
 ### Classification performance
-On a test set with 253 test examples (more or less evenly divided among 6 classes), the following accuracy was achieved:
+On a test set with 253 test examples (more or less evenly divided among 6 classes), the following accuracies were achieved:
 
-6-class (inside make, inside miss, midrange make, midrange miss, 3 make, 3 miss) : 66%
-
-4-class (make 2, miss 2, make 3, miss 3): 74%
-
-Binary (simply make/miss): 89%
+| # classes        | Classes           | Accuracy  |
+| ------------- |:-------------| :-----|
+| 6      | (Inside/Midrange/Three) (Make/Miss) | 66% |
+| 4      | (Two/Three) (Make/Miss)      | 74% |
+| 2 | (Make/Miss)      | 91% |
 
 
 ### Examples:
