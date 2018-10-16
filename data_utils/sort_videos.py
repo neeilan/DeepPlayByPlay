@@ -3,6 +3,9 @@ from os import mkdir
 from os import path
 from shutil import copy2
 
+UNSORTED_VIDS_DIR = '/path/to/dir/containing/unsorted/video/files'     # ex - '/Users/username/Desktop/all_videos'
+DEST_DIR = '/path/where/you/want/sorted/folders/to/go'                 # ex - '/Users/username/Desktop/sorted_videos'
+
 THREE_POINT_MAKE = 'THREE_POINT_MAKE'
 THREE_POINT_MISS = 'THREE_POINT_MISS'
 MIDRANGE_MAKE = 'MIDRANGE_MAKE'
@@ -42,8 +45,8 @@ def sort_files(src_dir, class_dirs_root):
         copy2(file_path, class_dir_path)
 
 if __name__ == '__main__':
-    src_dir = '/Users/neeilanselvalingam/Desktop/DPBPdata/all_data'
-    dest_dir = '/Users/neeilanselvalingam/Desktop/DPBPdata'
+    src_dir = UNSORTED_VIDS_DIR
+    dest_dir = DEST_DIR
 
     init_class_dirs(dest_dir)
     sort_files(src_dir, dest_dir)
