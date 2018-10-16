@@ -86,11 +86,13 @@ function downloadVideos(file, numPlays) {
   });
 };
 
-var filePath = 'combined';
-
-downloadVideos(filePath, 900);
+// Specify game file with play info, and how many plays to download.
+const filePath = 'path_to_plays_file';
+const numPlaysToDownload = 100;
+downloadVideos(filePath, numPlaysToDownload);
 
 /*
+// Schedule retry checker - Retry failures once, or append it to failures file to check later
 setInterval(function retry() {
   console.log('ATTEMPTING RETRIES');
   while (retryQueue.length > 0) {
