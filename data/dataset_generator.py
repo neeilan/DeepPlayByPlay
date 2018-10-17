@@ -1,11 +1,17 @@
 import numpy as np
+import skvideo.io
+import skvideo.utils
+import random
+
 from os import listdir
 from os import path
 from os.path import isdir
 from os.path import join
-import skvideo.io
-import skvideo.utils
-import random
+
+from sklearn.preprocessing import LabelEncoder
+from keras.utils import to_categorical
+
+from config import VIDEO_DIMENSIONS
 
 class DataSetGenerator():
   def __init__(self, data_root):
@@ -50,7 +56,7 @@ class DataSetGenerator():
             continue
 
           f, h, w, c = video.shape
-          assert (h, w, c) == video_dimensions
+          assert (h, w, c) == VIDEO_DIMENSIONS
 
           if f >= frames:
               video = video[:frames, :, :, :]
@@ -79,7 +85,7 @@ class DataSetGenerator():
             continue
 
           f, h, w, c = video.shape
-          assert (h, w, c) == video_dimensions
+          assert (h, w, c) == VIDEO_DIMENSIONS
 
           if f >= frames:
               video = video[:frames, :, :, :]

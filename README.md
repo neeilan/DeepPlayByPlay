@@ -19,7 +19,7 @@ The ultimate goal is continuous video classification, on running broadcast foota
 I picked out several plays from [this video](https://www.youtube.com/watch?v=jjX71R69jlA) of the last 5 minutes of Spurs/Rockets Game 5 in the 2017 playoffs to see how well plays are classified:
 
 
-<img src="missed_threes.gif" width="45%"> <img src="assets/PROBS_1.png" width="50%">
+<img src="assets/PLAY_1.gif" width="45%"> <img src="assets/PROBS_1.png" width="50%">
 <img src="assets/PLAY_2.gif" width="45%"> <img src="assets/PROBS_2.png" width="50%">
 <img src="assets/PLAY_4.gif" width="45%"> <img src="assets/PROBS_4.png" width="50%">
 <img src="assets/PLAY_5.gif" width="45%"> <img src="assets/PROBS_5.png" width="50%">
