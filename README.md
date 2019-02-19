@@ -55,3 +55,5 @@ Note that some of these plays are quite difficult to judge properly at this reso
 
 ### FAQ
 I'll fill this out if and when people ask questions.
+
+[Reddit discussion](https://www.reddit.com/r/nba/comments/9oyzhr/oc_a_side_project_ive_been_working_on_using_deep/)
