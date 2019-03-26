@@ -25,7 +25,7 @@ However, the pre-trained weights file is available in the `weights` directory.
 
 The ultimate goal is continuous video classification, on running broadcast footage. However, I didn't have access to labelled data for non-field goal events (like rebounds, free throws, players running down the court, Javale doing dumb shit, etc). As a result, these examples use 90-frame (at 8 fps, so about 11 seconds long) videos of field-goal make/miss events - the only kind the model can currently identify.
 
-Since all data used for training and testing was from the 2017-18 season, I picked out several plays from [this video](https://www.youtube.com/watch?v=jjX71R69jlA) of the last 5 minutes of Spurs/Rockets Game 5 in the 2017 playoffs to see how accurately unseen plays are classified:
+Since all data used for training and testing was from the 2017-18 season, I picked out several plays from [this video](https://www.youtube.com/watch?v=jjX71R69jlA) of the last 5 minutes of Spurs/Rockets Game 5 in the 2017 playoffs to see how accurately plays from a completely different season are classified:
 
 <img src="assets/PLAY_1.gif" width="45%"> <img src="assets/PROBS_1.png" width="50%">
 <img src="assets/PLAY_2.gif" width="45%"> <img src="assets/PROBS_2.png" width="50%">
