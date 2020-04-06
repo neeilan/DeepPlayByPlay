@@ -17,7 +17,7 @@ After training on about 3000 training examples (~6000 with augmentation), on a t
 
 ### Running the code
 
-You should be able to clone this repo, set up paths appropriately in `config.py`, and run training or inference. All dependencies for this project ship with either the Python 3 standard library or the everyday machine/deep learning toolkit (TensorFlow, keras, scikit-learn). To read videos from disk, I use [scikit-video](http://www.scikit-video.org/stable/io.html) io module, which you may need to install. Training data isn't hosted in this repo because it is quite large even after downsampling, and I don't have the [express written consent](https://www.youtube.com/watch?v=esj4vC1na7M) of the NBA.
+You should be able to clone this repo, set up paths appropriately in `config.py`, and run training or inference. All dependencies for this project ship with either the Python 3 standard library or the everyday machine/deep learning toolkit (TensorFlow, keras, scikit-learn). To read videos from disk, I use [scikit-video](http://www.scikit-video.org/stable/io.html) io module, which you may need to install. Training data isn't hosted in this repo because it is quite large even after downsampling, and I don't have the [express written consent](https://www.youtube.com/watch?v=kyj-7bDr7fs) of the NBA.
 However, the pre-trained weights file is available in the `weights` directory.
 
 
