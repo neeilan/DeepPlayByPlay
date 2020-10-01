@@ -1,8 +1,8 @@
 # Deep Play-by-Play
 
-This repo contains model and data collection / preprocessing code to label NBA broadcast footage with play-by-play descriptions, using 3D ConvNet-based video classification.
+This repo contains the model and data collection / preprocessing code to label NBA broadcast footage with play-by-play descriptions, using 3D ConvNet-based video classification.
 
-To learn how to scrape labelled videos off NBA.com for similar projects, see [data_utils/README](data_utils/README.md).
+To learn how to scrape labelled videos off NBA.com for similar projects, see [data_utils/README](data_utils/README.md) .
 
 
 ### Classification performance
@@ -56,4 +56,4 @@ Note that some of these plays are quite difficult to judge properly at this reso
 ### FAQ
 I'll fill this out if and when people ask questions.
 
-[Reddit discussion](https://www.reddit.com/r/nba/comments/9oyzhr/oc_a_side_project_ive_been_working_on_using_deep/)
+[Reddit discussion] (https://www.reddit.com/r/nba/comments/9oyzhr/oc_a_side_project_ive_been_working_on_using_deep/)
